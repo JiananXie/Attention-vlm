@@ -99,8 +99,8 @@ def collect_attention_data():
 def save_data(data, base_name):
     """保存数据到多种格式"""
     # 确保输出目录存在
-    os.makedirs('analysis', exist_ok=True)
-    base_name = os.path.join('analysis', base_name)
+    # os.makedirs('analysis', exist_ok=True)
+    # base_name = os.path.join('analysis', base_name)
     
     # 转换defaultdict为普通dict
     data_dict = {k: dict(v) for k, v in data.items()}

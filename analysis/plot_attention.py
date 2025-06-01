@@ -8,7 +8,7 @@ import matplotlib as mpl
 # Dictionary mapping vision encoder size to models
 dict_encoder = {
     0.1: ["TinyGPT-V", "llava-fastvithd_0.5b_stage3"],
-    0.3: ["llava-phi2", "MiniGemini", "MoE-LLaVA","llava-v1.5-vicuna-7b","llava-v1.6-mistral-7b","llava-v1.6-vicuna-7b"],
+    0.3: ["mobilevlm_v2_7b","llava-phi2", "MiniGemini", "MoE-LLaVA","llava-v1.5-vicuna-7b","llava-v1.6-mistral-7b","llava-v1.6-vicuna-7b"],
     0.4: [
         "TinyLLaVA",
         "Deepseek-VL-7B",
@@ -56,6 +56,7 @@ dict_llm = {
         "llava-v1.6-mistral-7b",
     ],
     "vicuna":[
+        "mobilevlm_v2_7b",
         "llava-v1.5-vicuna-7b",
         "llava-v1.6-vicuna-7b",
     ]

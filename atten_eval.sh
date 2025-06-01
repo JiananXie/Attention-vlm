@@ -1,5 +1,5 @@
 #! /bin/bash
-model_path="models/llava-fastvithd_1.5b_stage3"
+model_path="models/mobilevlm_v2_7b"
 image_file="view_336.jpg"
 query="What are the things I should be cautious about when I visit this place? Are there any dangerous areas or activities I should avoid? Or any other important information I should know?"
 
@@ -49,6 +49,11 @@ elif [[ $model_path == *"qwen2.5-VL"* ]]; then
         --model-path $model_path \
         --image-file $image_file \
         --query "$query"
+elif [[ $model_path == *"mobilevlm"* ]]; then
+    CUDA_VISIBLE_DEVICES=0 python run/run_mobilevlm.py \
+        --model_ $model_path \
+        --image_file $image_file \
+        --prompt "$query"
 else 
     echo "Unsupported model"
 fi

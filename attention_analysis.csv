@@ -287,38 +287,6 @@ bunny-stablelm2-eva,21,True,0.002,0.071,0.926,0.000,
 bunny-stablelm2-eva,22,True,0.003,0.080,0.917,0.000,
 bunny-stablelm2-eva,23,True,0.003,0.215,0.782,0.000,
 bunny-stablelm2-eva,24,True,0.003,0.401,0.596,0.000,
-chameleon,0,False,,,,,No pie chart
-chameleon,1,False,,,,,No pie chart
-chameleon,2,False,,,,,No pie chart
-chameleon,3,False,,,,,No pie chart
-chameleon,4,False,,,,,No pie chart
-chameleon,5,False,,,,,No pie chart
-chameleon,6,False,,,,,No pie chart
-chameleon,7,False,,,,,No pie chart
-chameleon,8,False,,,,,No pie chart
-chameleon,9,False,,,,,No pie chart
-chameleon,10,False,,,,,No pie chart
-chameleon,11,False,,,,,No pie chart
-chameleon,12,False,,,,,No pie chart
-chameleon,13,False,,,,,No pie chart
-chameleon,14,False,,,,,No pie chart
-chameleon,15,False,,,,,No pie chart
-chameleon,16,False,,,,,No pie chart
-chameleon,17,False,,,,,No pie chart
-chameleon,18,False,,,,,No pie chart
-chameleon,19,False,,,,,No pie chart
-chameleon,20,False,,,,,No pie chart
-chameleon,21,False,,,,,No pie chart
-chameleon,22,False,,,,,No pie chart
-chameleon,23,False,,,,,No pie chart
-chameleon,24,False,,,,,No pie chart
-chameleon,25,False,,,,,No pie chart
-chameleon,26,False,,,,,No pie chart
-chameleon,27,False,,,,,No pie chart
-chameleon,28,False,,,,,No pie chart
-chameleon,29,False,,,,,No pie chart
-chameleon,30,False,,,,,No pie chart
-chameleon,31,False,,,,,No pie chart
 llava-phi2,1,True,0.346,0.205,0.448,0.000,
 llava-phi2,2,True,0.276,0.209,0.516,0.000,
 llava-phi2,3,True,0.371,0.206,0.423,0.000,
@@ -527,3 +495,67 @@ mobilevlm_v2_7b,29,True,0.007,0.014,0.979,0.000,
 mobilevlm_v2_7b,30,True,0.009,0.019,0.971,0.000,
 mobilevlm_v2_7b,31,True,0.008,0.017,0.975,0.000,
 mobilevlm_v2_7b,32,True,0.030,0.061,0.910,0.000,
+deepseek-vl-7b-base,1,True,0.230,0.300,0.470,0.000,
+deepseek-vl-7b-base,2,True,0.052,0.184,0.763,0.000,
+deepseek-vl-7b-base,3,True,0.004,0.021,0.975,0.000,
+deepseek-vl-7b-base,4,True,0.003,0.017,0.980,0.000,
+deepseek-vl-7b-base,5,True,0.003,0.024,0.973,0.000,
+deepseek-vl-7b-base,6,True,0.005,0.027,0.968,0.000,
+deepseek-vl-7b-base,7,True,0.005,0.026,0.969,0.000,
+deepseek-vl-7b-base,8,True,0.006,0.027,0.967,0.000,
+deepseek-vl-7b-base,9,True,0.006,0.034,0.960,0.000,
+deepseek-vl-7b-base,10,True,0.007,0.041,0.953,0.000,
+deepseek-vl-7b-base,11,True,0.010,0.058,0.932,0.000,
+deepseek-vl-7b-base,12,True,0.010,0.045,0.946,0.000,
+deepseek-vl-7b-base,13,True,0.009,0.054,0.938,0.000,
+deepseek-vl-7b-base,14,True,0.009,0.055,0.936,0.000,
+deepseek-vl-7b-base,15,True,0.016,0.062,0.922,0.000,
+deepseek-vl-7b-base,16,True,0.013,0.059,0.928,0.000,
+deepseek-vl-7b-base,17,True,0.013,0.053,0.934,0.000,
+deepseek-vl-7b-base,18,True,0.014,0.036,0.950,0.000,
+deepseek-vl-7b-base,19,True,0.010,0.031,0.958,0.000,
+deepseek-vl-7b-base,20,True,0.012,0.031,0.957,0.000,
+deepseek-vl-7b-base,21,True,0.013,0.025,0.962,0.000,
+deepseek-vl-7b-base,22,True,0.011,0.017,0.971,0.000,
+deepseek-vl-7b-base,23,True,0.010,0.018,0.972,0.000,
+deepseek-vl-7b-base,24,True,0.008,0.019,0.973,0.000,
+deepseek-vl-7b-base,25,True,0.011,0.019,0.970,0.000,
+deepseek-vl-7b-base,26,True,0.007,0.010,0.983,0.000,
+deepseek-vl-7b-base,27,True,0.010,0.021,0.969,0.000,
+deepseek-vl-7b-base,28,True,0.005,0.015,0.980,0.000,
+deepseek-vl-7b-base,29,True,0.007,0.014,0.979,0.000,
+deepseek-vl-7b-base,30,True,0.009,0.019,0.971,0.000,
+deepseek-vl-7b-base,31,True,0.008,0.017,0.975,0.000,
+deepseek-vl-7b-base,32,True,0.030,0.061,0.910,0.000,
+chameleon-7b,1,True,0.290,0.310,0.400,0.000,
+chameleon-7b,2,True,0.174,0.194,0.632,0.000,
+chameleon-7b,3,True,0.011,0.031,0.958,0.000,
+chameleon-7b,4,True,0.007,0.027,0.966,0.000,
+chameleon-7b,5,True,0.014,0.034,0.952,0.000,
+chameleon-7b,6,True,0.017,0.037,0.946,0.000,
+chameleon-7b,7,True,0.016,0.036,0.948,0.000,
+chameleon-7b,8,True,0.017,0.037,0.946,0.000,
+chameleon-7b,9,True,0.024,0.044,0.932,0.000,
+chameleon-7b,10,True,0.031,0.051,0.918,0.000,
+chameleon-7b,11,True,0.048,0.068,0.884,0.000,
+chameleon-7b,12,True,0.035,0.055,0.910,0.000,
+chameleon-7b,13,True,0.044,0.064,0.892,0.000,
+chameleon-7b,14,True,0.045,0.065,0.890,0.000,
+chameleon-7b,15,True,0.052,0.072,0.876,0.000,
+chameleon-7b,16,True,0.049,0.069,0.882,0.000,
+chameleon-7b,17,True,0.043,0.063,0.894,0.000,
+chameleon-7b,18,True,0.026,0.046,0.928,0.000,
+chameleon-7b,19,True,0.021,0.041,0.938,0.000,
+chameleon-7b,20,True,0.021,0.041,0.938,0.000,
+chameleon-7b,21,True,0.015,0.035,0.950,0.000,
+chameleon-7b,22,True,0.007,0.027,0.966,0.000,
+chameleon-7b,23,True,0.008,0.028,0.964,0.000,
+chameleon-7b,24,True,0.009,0.029,0.962,0.000,
+chameleon-7b,25,True,0.009,0.029,0.962,0.000,
+chameleon-7b,26,True,0.005,0.015,0.980,0.000,
+chameleon-7b,27,True,0.011,0.031,0.958,0.000,
+chameleon-7b,28,True,0.005,0.025,0.970,0.000,
+chameleon-7b,29,True,0.004,0.024,0.972,0.000,
+chameleon-7b,30,True,0.009,0.029,0.962,0.000,
+chameleon-7b,31,True,0.007,0.027,0.966,0.000,
+chameleon-7b,32,True,0.051,0.071,0.878,0.000,

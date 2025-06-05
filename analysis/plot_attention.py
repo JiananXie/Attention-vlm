@@ -7,11 +7,11 @@ import matplotlib as mpl
 
 # Dictionary mapping vision encoder size to models
 dict_encoder = {
-    0.1: ["TinyGPT-V", "llava-fastvithd_0.5b_stage3"],
+    0.1: ["TinyGPT-V", "llava-fastvithd_0.5b_stage3","chameleon-7b"],
     0.3: ["mobilevlm_v2_7b","llava-phi2", "MiniGemini", "MoE-LLaVA","llava-v1.5-vicuna-7b","llava-v1.6-mistral-7b","llava-v1.6-vicuna-7b"],
     0.4: [
         "TinyLLaVA",
-        "Deepseek-VL-7B",
+        "deepseek-vl-7b-base",
         "bunny-phi2-siglip",
         "bunny-phi1.5-eva",
         "bunny-phi1.5-siglip",
@@ -59,6 +59,9 @@ dict_llm = {
         "mobilevlm_v2_7b",
         "llava-v1.5-vicuna-7b",
         "llava-v1.6-vicuna-7b",
+    ],
+    "deepseek-LLM":[
+        "deepseek-vl-7b-base",
     ]
 }
 
@@ -736,7 +739,9 @@ def compare_same_llm_different_encoder(df):
 
 def main():
     # Load attention data
-    csv_file = 'attention_analysis.csv'
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(script_dir)
+    csv_file = os.path.join(project_root, 'attention_analysis.csv')
     
     try:
         attention_df = load_attention_data(csv_file)
@@ -746,7 +751,7 @@ def main():
         return
     
     # Ensure the analysis and images directories exist
-    os.makedirs('analysis', exist_ok=True)
+    # os.makedirs('analysis', exist_ok=True)
     os.makedirs('images', exist_ok=True)
     
     # Plot attention by vision encoder size
